@@ -35,3 +35,10 @@ Console.WriteLine("Ranking of students:");
 foreach (string str in RankingAlumnos)
     Console.WriteLine(str);
 
+//Stack
+var misVinos = new Stack<string>();
+misVinos.Push("Rosé Santiago Queirolo");
+misVinos.Push("Semi seco Tacama");
+misVinos.Push("Tinto Tabernero");
+misVinos.Push("Cabernet Sauvignon Terranoble");
+
