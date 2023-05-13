@@ -42,3 +42,18 @@ misVinos.Push("Semi seco Tacama");
 misVinos.Push("Tinto Tabernero");
 misVinos.Push("Cabernet Sauvignon Terranoble");
 
+//Dictionary
+var codigosTelefonicos = new Dictionary<string, int>();
+codigosTelefonicos.Add("Peru", 51);
+codigosTelefonicos.Add("Colombia", 57);
+codigosTelefonicos.Add("Chile", 56);
+codigosTelefonicos.Add("Argentina", 54);
+
+//Queues
+var clientesParaAtender = new Queue<string>();
+clientesParaAtender.Enqueue("Coco");
+clientesParaAtender.Enqueue("Marcela");
+clientesParaAtender.Enqueue("Hugo");
+clientesParaAtender.Enqueue("María");
+clientesParaAtender.Enqueue("Juan Pablo");
+
