@@ -17,3 +17,21 @@ misProyectos.Add("Sistema de planillas");
 misProyectos.Add("Sistema de ventas");
 misProyectos.Add("Ecommerce");
 misProyectos.Add("Mobile app");
+
+var misCursos = new List<string>() { "Cálculo", "Física eléctrica" };
+misProyectos.Add("Ingeniería de software");
+misProyectos.Add("Sistemas Operativos");
+misProyectos.Add("Teoría general de sistemas");
+
+//Linked List
+LinkedList<String> RankingAlumnos = new LinkedList<String>();
+RankingAlumnos.AddLast("Ana");//antepenúltimo
+RankingAlumnos.AddLast("Jorge");//penúltimo
+RankingAlumnos.AddFirst("Gerson");//2do puesto
+RankingAlumnos.AddLast("Nando");//último puesto
+RankingAlumnos.AddFirst("Felipe");//resultará en el 1er puesto
+
+Console.WriteLine("Ranking of students:");
+foreach (string str in RankingAlumnos)
+    Console.WriteLine(str);
+
