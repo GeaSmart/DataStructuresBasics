@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Identifying the Data Structures in .NET");
+﻿using System.Collections;
+
+Console.WriteLine("Identifying the Data Structures in .NET");
 Console.WriteLine("=======================================");
 
 //Arrays
@@ -57,3 +59,18 @@ clientesParaAtender.Enqueue("Hugo");
 clientesParaAtender.Enqueue("María");
 clientesParaAtender.Enqueue("Juan Pablo");
 
+//Hash table
+Hashtable libros=new Hashtable();
+libros.Add("0-7645-2641-3", "Mi libro de matematica");
+libros.Add("0-7645-2641-2", "Física IV 3da edición");
+libros.Add("0-7645-2641-1", "Algebra booleana");
+libros.Add("0-7645-2641-7", "Algebra clásica 4ta ed.");
+
+
+//Hashset
+var calificacionesValidas = new HashSet<string>();
+calificacionesValidas.Add("A");
+calificacionesValidas.Add("B+");
+calificacionesValidas.Add("B");
+calificacionesValidas.Add("C+");
+calificacionesValidas.Add("C");
